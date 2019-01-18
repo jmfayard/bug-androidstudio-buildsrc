@@ -1,4 +1,4 @@
-# Android Studio and buildSrc integration
+# Android Studio 3.3 and buildSrc integration
 
 The IDE support for the buildSrc module is broken in Android Studio 3.3
 
