@@ -4,6 +4,9 @@ The IDE support for the buildSrc module is broken in Android Studio 3.3
 
 This project is a minimal example that demonstrate the issue.
 
+See [bug 123032843  IDE integration with the Gradle buildSrc module is broken in Android Studio 3.3](https://issuetracker.google.com/issues/123032843)
+
+
 ## Longer description ##
 
 The user experience of editing a Gradle build in Android Studio is in general not good at all.
@@ -18,7 +21,7 @@ Then Gradle gave us the `buildSrc` module
 And Jetbrains Intellij built a very nice integration of it.
 It was backported and well and good in Android Studio 3.2.
 
-Then you could use the `Config` object in all your `build.gradle` files, jump to its definition and have auto-completion. A game changer.
+When you edit your `build.gradle` files, you can jump to its definition and have auto-completion. A game changer.
 
 <img height="300" src="https://user-images.githubusercontent.com/459464/50812046-661c1900-1311-11e9-8bbb-4ac1e0ec1437.png">
 
